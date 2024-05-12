@@ -2,7 +2,9 @@
 # To use the aliases contained within, simply execute "source alias.sh".
 # You will need to use this command once per sandbox in order to use these aliases.
 
-# These aliases exist to speed up your github actions
+# Don't be afraid to add aliases of your own!
+
+# These aliases exist to speed up your github actions.
 alias ga="git add ."
 alias com="git commit -m" # You will still need to write a commit message in quotes. I typically use something along the lines of "file_name [number of commits related to file]: Short description of changes"
 alias fastcom="git commit -m 'speed in exchange for understanding'" # Do NOT make a habit of using this. Use only for simple things like typos or other mundane changes. Trust me, you'll want to learn to write good commit messages for when you are looking through your commit history.
@@ -14,8 +16,9 @@ alias t="touch"
 alias x="chmod +x"
 # The tee command is used to add text to multiple files at once, making it great for inserting headers quickly. To use tee, enter: "echo -e 'your_text_here' | tee file_1 file_2 ..."
 # The tee family of aliases can be used to add text to all files or a specific file type. Shell, C, and Python file extensions are included here.
-#
+
 # !!! IMPORTANT !!!
+
 # By default, tee will overwrite file contents. These aliases will do the same. To append contents, include '-a' after 'tee' in the command. Don't accidentally delete your work!
 alias teeset="tee *"
 alias teesh="tee *.sh"
@@ -31,4 +34,12 @@ alias compile="gcc -Wall -pedantic -Werror -Wextra -std=gnu89"
 
 # These aliases will help you navigate to various directories used for Atlas assignments.
 alias root="cd ~/"
-alias
+alias azd="cd ~/atlas-zero_day/"
+alias sh="cd ~/atlas-shell/"
+alias llp="cd ~/atlas-low_level_programming/"
+alias hlp="cd ~/atlas-higher_level_programming/"
+alias bin="cd ~/atlas-binary_trees/"
+alias mty="cd ~/atlas-monty/"
+alias srt="cd ~/atlas-sorting_algorithms"
+alias prf="cd ~/atlas-printf"
+alias ssh="cd ~/atlas-simple_shell"
