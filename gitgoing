@@ -8,8 +8,6 @@ setup/./check
 
 setup/./bettyinst
 
-setup/./bashaliasappend
-
 setup/./cleanroot
 
 setup/./aliasreminder
