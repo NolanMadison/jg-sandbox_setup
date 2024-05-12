@@ -7,6 +7,10 @@ if  test -d Betty; then
 	./install.sh;
 	echo -e '\nReady to check Betty compliance!';
 else
-	echo 'Directory "Betty" not found.';
+	echo 'Directory "Betty" not found. Cloning Betty';
+	git clone https://github.com/hs-hq/Betty
+	cd Betty;
+	./install.sh;
+	echo -e '\nReady to check Betty compliance!';
 fi
 echo -e "\n"
