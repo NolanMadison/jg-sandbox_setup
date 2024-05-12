@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
-git config --global user.name JacobGriffith1 ; git config --global user.email jacobgriffith6339@gmail.com
-echo "Welcome back, Jacob!"
+# Remember to edit in your credentials!
+
+git config --global user.name your_github_username_here ; git config --global user.email your_github_email_here
+echo "Welcome back, your_name_here!"
 echo -e "\n"
