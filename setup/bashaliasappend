@@ -1,0 +1,50 @@
+#!/usr/bin/env bash
+
+echo -e alias ga=\"git add .\" > ~/.bash_aliases
+echo -e alias com=\"git commit -m\" >> ~/.bash_aliases
+echo -e alias push=\"git push\" >> ~/.bash_aliases
+echo -e alias t=\"touch\" >> ~/.bash_aliases
+echo -e alias x=\"chmod +x\" >> ~/.bash_aliases
+echo -e alias b=\"betty\" >> ~/.bash_aliases
+echo -e alias sc=\"shellcheck\" >> ~/.bash_aliases
+echo -e alias teeset=\"tee *-*\" >> ~/.bash_aliases
+echo -e alias teec=\"tee *.c\" >> ~/.bash_aliases
+echo -e alias teep=\"tee *.py\" >> ~/.bash_aliases
+echo -e alias compile=\"gcc -Wall -pedantic -Werror -Wextra -std=gnu89\" >> ~/.bash_aliases
+echo -e alias montycomp=\"gcc -Wall -Werror -Wextra -pedantic *.c -o monty\" >> ~/.bash_aliases
+echo -e alias sscompile=\"gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh\" >> ~/.bash_aliases
+
+echo -e alias llp=\"cd ~/atlas-low_level_programming/\" >> ~/.bash_aliases
+echo -e alias setup=\"cd ~/atlas-low_level_programming/setup\" >> ~/.bash_aliases
+echo -e alias rec=\"cd ~/atlas-low_level_programming/recursion/\" >> ~/.bash_aliases
+echo -e alias arg=\"cd ~/atlas-low_level_programming/argc_argv/\" >> ~/.bash_aliases
+echo -e alias mal=\"cd ~/atlas-low_level_programming/malloc_free/\" >> ~/.bash_aliases
+echo -e alias mml=\"cd ~/atlas-low_level_programming/more_malloc_free/\" >> ~/.bash_aliases
+echo -e alias pre=\"cd ~/atlas-low_level_programming/preprocessor/\" >> ~/.bash_aliases
+echo -e alias tpd=\"cd ~/atlas-low_level_programming/structures_typedef/\" >> ~/.bash_aliases
+echo -e alias fnp=\"cd ~/atlas-low_level_programming/function_pointers/\" >> ~/.bash_aliases
+echo -e alias vdc=\"cd ~/atlas-low_level_programming/variadic_functions/\" >> ~/.bash_aliases
+echo -e alias sll=\"cd ~/atlas-low_level_programming/singly_linked_lists/\" >> ~/.bash_aliases
+echo -e alias msl=\"cd ~/atlas-low_level_programming/more_singly_linked_lists/\" >> ~/.bash_aliases
+echo -e alias bit=\"cd ~/atlas-low_level_programming/bit_manipulation/\" >> ~/.bash_aliases
+echo -e alias fio=\"cd ~/atlas-low_level_programming/file_io/\" >> ~/.bash_aliases
+echo -e alias dll=\"cd ~/atlas-low_level_programming/doubly_linked_lists/\" >> ~/.bash_aliases
+echo -e alias hsh=\"cd ~/atlas-low_level_programming/hash_tables/\" >> ~/.bash_aliases
+echo -e alias src=\"cd ~/atlas-low_level_programming/search_algorithms/\" >> ~/.bash_aliases
+
+echo -e alias hlp=\"cd ~/atlas-higher_level_programming/\" >> ~/.bash_aliases
+
+echo -e alias prf=\"cd ~/atlas-printf/\" >> ~/.bash_aliases
+
+echo -e alias shell=\"cd ~/atlas-simple_shell/\" >> ~/.bash_aliases
+
+echo -e alias mty=\"cd ~/atlas-monty/\" >> ~/.bash_aliases
+
+echo -e alias srt=\"cd ~/atlas-sorting_algorithms/\" >> ~/.bash_aliases
+
+echo -e alias tre=\"cd ~/atlas-binary_trees/\" >> ~/.bash_aliases
+
+echo -e alias zro=\"cd ~/atlas-zero_day/\" >> ~/.bash_aliases
+
+echo "'~/.bash_aliases' appended!"
+echo -e "\n"

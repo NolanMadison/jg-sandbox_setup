@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+clear
+
+setup/./gitconfig
+
+setup/./check
+
+setup/./bettyinst
+
+setup/./bashaliasappend
+
+setup/./cleanroot
+
+setup/./aliasreminder
